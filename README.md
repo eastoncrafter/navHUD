@@ -8,4 +8,9 @@ Along with that I have the counterpart Android application.
 Workings:
 The android application will get the navigation data from the notification panel by maps. This will then parse it and break it up into smaller chunks (limited by the BLE packet sizes) and then they will be transmitted to the esp, wihch will be on the dashboard connected to a display.
 
-I have used the 128x64 oled module, 
+I have used the 128x64 oled module,
+
+## Building
+
+For detailed build instructions, see [BUILD.md](BUILD.md).
+
